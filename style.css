@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+body{
+    background-color: lightgray;
+}
+/* Header and Nav*/
+
+h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(99, 99, 99);
+}
+h5{
+    font-size: 32px;
+    font-weight: 100;
+    color: darkgray;
+}
+ul{
+    position: relative;
+    padding: 24px;
+    
+}
+
+li{
+    display: inline;
+    padding: 16px;
+}
+.right-side{
+    display: flex;
+}
+.logo-cont{
+    padding-left: 24px;
+    display: flex;
+    height: 64px;
+    background-color:white;
+    justify-content: space-between;
+}
+.logo-img{
+    height: 50px;
+}
+/* Above the fold banner*/
+.main-container{
+    display: flex;
+    padding: 96px 24px 32px 24px;
+
+}
+.headline{
+    padding-left: 52px;
+}
+h1{
+    font-size: 4.5em;
+    color: rgb(65, 65, 65);
+}
+h3{
+    padding-top: 16px;;
+    font-size: 1.5em;
+    color: rgb(65,65,65);
+}
+.button{
+    text-align: center;
+    margin-top: 32px;
+    background-color: rgb(105, 105, 105);
+    padding: 16px;
+    width: 400px;
+    color: white;
+    font-size: 18px;
+}
+.main-img{
+    width: 60%;
+}
+/* Articles*/
+
+.article-container{
+
+    background-color: white;
+
+}
+.art-img{
+    margin: 32px 24px;
+    width: 60%;
+}
