@@ -87,3 +87,21 @@ h3{
     margin: 32px 24px;
     width: 60%;
 }
+.art-header{
+    margin-left:24px;
+    margin-bottom: 32px;
+    font-size: 3.2em;
+    
+}
+p{
+    font-size: 16px;
+    width: 60%;
+    font-weight: lighter;
+    margin-left: 24px;
+    color: gray;
+    line-height: 24px;
+}
+.art-auth{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
