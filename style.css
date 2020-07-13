@@ -186,8 +186,32 @@ p{
 .mod-info{
     margin: 16px;
 }
-.heading{
+.heading_2{
     text-align: center;
     background-color: white;
     padding-top: 32px;
+}
+.heading{
+    text-align: center;
+    padding-top: 32px;
+}
+/* Footer*/
+.line{
+    width: 100%;
+    height: 1px;
+    color: rgb(58, 58, 58);
+}
+.rights{
+   
+    margin-left:24px;
+    
+    width:85%;
+}
+footer{
+   
+    display: flex;
+    align-items: center;
+}
+.terms ul{
+    display: inline;
 }
