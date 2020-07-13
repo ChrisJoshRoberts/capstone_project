@@ -33,7 +33,7 @@ li{
     display: inline;
     padding: 16px;
 }
-.right-side{
+.right-sideheader{
     display: flex;
 }
 .logo-cont{
@@ -77,15 +77,63 @@ h3{
     width: 60%;
 }
 /* Articles*/
-
-.article-container{
-
+.n-article-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 968px;
     background-color: white;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+    
+}
+.right-image{
+   
+    width: 95%;
+    height: 606px;
+    margin: 32px 24px;
+}
+.right-info{
+    margin-left:24px ;
+    width: 95%;
+    height: 300px;
+    
+}
+.left-side{
+    width: 40%;
+    height: 968px;
+    background-color: white
+}
+.column-1,.column-2,.column-3{
+    display: flex;
+    background-color: white;
+    height: 272px;
+    width: 650px;
+    margin: 32px;
+}
+h2{
+    font-size: 32px;;
+    padding-bottom: 16px;
+    color: rgb(57, 66, 75);
 
 }
-.art-img{
-    margin: 32px 24px;
-    width: 60%;
+.info-div{
+    margin-left: 32px ;
+}
+.article-info{
+    font-weight: lighter;
+    margin: 0px;
+    padding-bottom: 16px;
+    width: 300px;
+    color: rgb(104, 104, 104);
+}
+a{
+    text-decoration: none;
+    color: steelblue;
 }
 .art-header{
     margin-left:24px;
@@ -95,13 +143,51 @@ h3{
 }
 p{
     font-size: 16px;
-    width: 60%;
+    width: 95%;
     font-weight: lighter;
     margin-left: 24px;
     color: gray;
     line-height: 24px;
 }
-.art-auth{
+/* START LEARNING*/
+.start-header-container{
     padding-top: 32px;
-    padding-bottom: 32px;
+    text-align: center;
+    width: 100%;
+   
+}
+.module-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 32px 72px;
+    
+}
+.module{
+    margin-right: 16px;
+    margin-bottom: 16px;
+    background-color: white;
+    text-align: left;
+    width: 532px;
+}
+.courses{
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 24px;
+    padding: 8px 0px;
+}
+.article-info{
+    font-size: 18px;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+
+}
+.mod-info{
+    margin: 16px;
+}
+.heading{
+    text-align: center;
+    background-color: white;
+    padding-top: 32px;
 }
