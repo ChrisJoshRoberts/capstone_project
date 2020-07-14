@@ -72,6 +72,12 @@ h3{
     width: 400px;
     color: white;
     font-size: 18px;
+   
+}
+.button:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
 }
 .main-img{
     width: 60%;
@@ -114,6 +120,21 @@ h3{
     height: 272px;
     width: 650px;
     margin: 32px;
+}
+.column-2:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+.column-1:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+.column-3:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
 }
 h2{
     font-size: 32px;;
@@ -178,7 +199,7 @@ p{
 }
 .article-info{
     font-size: 18px;
-    width: 400px;
+    width: 300px;
     padding-top: 8px;
     padding-bottom: 16px;
 
@@ -214,4 +235,171 @@ footer{
 }
 .terms ul{
     display: inline;
+}
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 375px){
+
+    h4{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    header{
+        position: fixed;
+        width: 375px;
+    }
+    body{
+        background-color: lightgray;
+    }
+    .leftside{
+        display: none;
+    }
+    .right-sideheader{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: -16px;
+        padding-top: 8px;
+    }
+    .nav-icon{
+        height: 40px;
+    }
+    .main-img{
+        width: 100%;
+        margin-top: 64px;
+    }
+    .main-container{
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+    .headline{
+        padding-left: 16px;
+    }
+    h1{
+       
+        padding-top: 32px;
+        font-size: 2.5em;
+        color: rgb(65, 65, 65);
+    }
+    h3{
+        padding-top: 16px;;
+        font-size: 1.4em;
+        color: rgb(65,65,65);
+    }
+    .button{
+        text-align: center;
+        margin-top: 32px;
+        background-color: rgb(105, 105, 105);
+        padding: 16px;
+        width: 300px;
+        color: white;
+        font-size: 18px;
+       margin-bottom: 32px;
+    }
+    .button:hover{
+        transition: background-color 0.5s;
+        background-color: rgb(24, 24, 24);
+        cursor: pointer;
+    }
+/* article mobile */
+
+.n-article-container{
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    height: 968px;
+    background-color: white;
+}
+.right-side{
+    display: none;
+}
+
+.left-side{
+    width: 375px;
+    height: 1468px;
+    background-color: white
+}
+.column-1 > img{
+    box-sizing: content-box;
+    background: url(/capstone_colmar_assets/images/information-orientation-mobile.jpg);
+    width: 315px;
+}
+.column-1,.column-2,.column-3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;  
+    width: 315px;
+    height: 375px;
+    padding-bottom: 32px;
+    
+}
+
+h2{
+    margin-top: 24px;
+    font-size: 24px;;
+    padding-bottom: 16px;
+    color: rgb(57, 66, 75);
+
+}
+.info-div{
+    margin: 16px 16px;
+}
+.article-info{
+    font-weight: lighter;
+    margin: 0px;
+    padding-bottom: 16px;
+    width: 300px;
+    color: rgb(104, 104, 104);
+}
+/* START LEARNING*/
+.start-header-container{
+    padding-top: 324px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    height: 764px;
+   
+}
+.module-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px 32px;
+    
+}
+.module{
+    background-color: rgb(179, 179, 179);
+    text-align: left;
+    width: 315px;
+}
+.module > img{
+    display: none;
+}
+.courses{
+    display: none;
+}
+.article-info-mod{
+    display: none;
+
+}
+.mod-info{
+    margin: 16px;
+}
+.heading_2{
+    text-align: center;
+    background-color: white;
+    padding-top: 16px;
+}
+.heading{
+    margin-top: 32px;
+    text-align: center;
+}
+.left-side{
+    height: 900px;
+}
+
+
+
 }
